@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/table_row">
+
+    <TextView
+        android:id="@+id/tv_row_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/table_cell_shape"
+        android:gravity="center"
+        android:text="Name"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_row_email"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@drawable/table_cell_shape"
+        android:gravity="center"
+        android:text="Email"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_row_gender"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/table_cell_shape"
+        android:gravity="center"
+        android:text="Gender"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_row_status"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/table_cell_shape"
+        android:gravity="center"
+        android:text="Status"
+        android:textStyle="bold" />
+</TableRow>

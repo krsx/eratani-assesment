@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@id/searchFragment"
+        android:name="com.project.eratani.features.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search"
+        />
+
+    <fragment
+        android:id="@+id/dataProcessFragment"
+        android:name="com.project.eratani.features.dataprocess.DataProcessFragment"
+        android:label="fragment_data_process"
+        tools:layout="@layout/fragment_data_process"
+        />
+
+    <fragment
+        android:id="@+id/heartAnimationFragment"
+        android:name="com.project.eratani.features.heart_animation.HeartAnimationFragment"
+        android:label="fragment_heart_animation"
+        tools:layout="@layout/fragment_heart_animation"
+        />
+
+    <fragment
+        android:id="@+id/userDataFragment"
+        android:name="com.project.eratani.features.user_data.UserDataFragment"
+        android:label="fragment_user_data"
+        tools:layout="@layout/fragment_user_data"
+        />
+</navigation>
